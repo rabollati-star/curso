@@ -7,7 +7,7 @@ df = pd.read_csv("traj_UNI_CORR_500_01.txt",
                  sep="\t", 
                  names=["ID", "frames", "X", "Y", "Z"])
 
-st.write("""# Mi primera aplicación interactiva##""")
+st.write("""# Mi primera aplicación interactiva""")
 
 # Using "with" notation
 with st.sidebar:
